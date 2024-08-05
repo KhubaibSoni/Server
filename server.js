@@ -8,7 +8,7 @@ const workoutRoutes = require('./routes/workouts')
 const app = express()
 
 app.use(cors({
-   origin:[""],
+   origin:["frontend-henna-eta-59.vercel.app"],
    methods:["POST","GET","DELETE"]
 }))
 // middleware
